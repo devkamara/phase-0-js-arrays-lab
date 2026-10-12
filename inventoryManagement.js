@@ -9,10 +9,9 @@ function addProduct(product) {
   products.push(product);
 }
 
-function updateProductName(product, newName, index) {
-  products[index] = newName;
-  return products[index];
-}
+function updateProductName(index, newName) {
+  if (index >= 0 && index < products.length) {
+    products[index] = newName;
 
 function removeLastProduct() {
   products.pop();
