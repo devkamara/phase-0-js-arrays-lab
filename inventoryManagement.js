@@ -10,11 +10,13 @@ function addProduct(product) {
 }
 
 function updateProductName(product) {
-  products.updateProductName = product;
+  products[1] = product;
+  return products;
 }
 
 function removeLastProduct() {
   products.pop();
+  return products;
 }
 
 // Export the necessary parts for testing
