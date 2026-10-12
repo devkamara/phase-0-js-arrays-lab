@@ -10,8 +10,8 @@ function addProduct(product) {
 }
 
 function updateProductName(product) {
-  products[1] = product;
-  return products;
+  products[index] = product;
+  return products[index];
 }
 
 function removeLastProduct() {
