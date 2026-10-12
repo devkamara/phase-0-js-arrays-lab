@@ -9,7 +9,7 @@ function addProduct(product) {
   products.push(product);
 }
 
-function updateProductName(product) {
+function updateProductName(product, newName) {
   products[index] = newName;
   return products[index];
 }
