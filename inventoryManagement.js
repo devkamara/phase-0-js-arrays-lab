@@ -12,7 +12,8 @@ function addProduct(product) {
 function updateProductName(index, newName) {
   if (index >= 0 && index < products.length) {
     products[index] = newName;
-
+  }}
+  
 function removeLastProduct() {
   products.pop();
   return products;
