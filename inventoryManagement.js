@@ -10,7 +10,7 @@ function addProduct(product) {
 }
 
 function updateProductName(product) {
-  products[index] = product;
+  products[index] = newName;
   return products[index];
 }
 
